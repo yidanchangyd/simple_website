@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.5">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; -webkit-text-stroke: #000000; min-height: 14.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">@charset "utf-8";</span></p>
+<p class="p1"><span class="s1">*{ margin:0; padding:0;}</span></p>
+<p class="p1"><span class="s1">a{ text-decoration:none;}</span></p>
+<p class="p1"><span class="s1">li{list-style-type:none;}</span></p>
+<p class="p1"><span class="s1">body{ background:url(https://detroitmi.gov/sites/detroitmi.localhost/files/2021-11/Joe-Louis-GreenWay.jpg) top center; background-attachment:fixed;font-size:14px;font-family:arial;}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">/*head*/</span></p>
+<p class="p1"><span class="s1">.head {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>width: 1100px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>height: 100px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding-top: 5px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: auto;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background-color: #f8f9f9;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex; <span class="Apple-converted-space">        </span>/* 新增flex布局 */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>align-items: center; <span class="Apple-converted-space">  </span>/* 垂直居中子元素 */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>justify-content: space-between; /* 子元素分散对齐 */</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.nav {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>align-items: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>justify-content: space-between;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>height: 80px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: auto;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>padding: 0 20px;<span class="Apple-converted-space">  </span>/* 添加左右内边距 */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>background: #f8f9f9;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.nav ul {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: flex;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>align-items: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>justify-content: center;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>width: 100%;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.nav li {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>margin: 0 15px;<span class="Apple-converted-space">  </span>/* 调整左右间距 */</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.nav li.center-logo {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>flex-grow: 20;<span class="Apple-converted-space">  </span>/* 允许这个元素增长填充额外空间 */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-align: center;<span class="Apple-converted-space">  </span>/* 文本居中 */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 40px;<span class="Apple-converted-space">  </span>/* 可以调整字体大小 */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #138d75;<span class="Apple-converted-space">  </span>/* 字体颜色 */</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-weight: 700</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.nav li a {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>font-size: 18px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #909497;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>line-height: 70px;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>display: block;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.nav li a:hover {</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>color: #16a085;</span></p>
+<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>text-decoration: none;</span></p>
+<p class="p1"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">/*main*/</span></p>
+<p class="p1"><span class="s1">.main{width:1000px;padding:50px;overflow:hidden;margin:auto; background-color:rgba(255,255,255,0.8);}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.main_left{width:200px; height:auto; float:left;}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.main_left .pic{width:190px;}</span></p>
+<p class="p1"><span class="s1">.main_left .pic img{width:190px;display:block;}</span></p>
+<p class="p1"><span class="s1">.main_left .search{ width:200px;height:34px;margin-top:30px;}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.main_left .search .btn{width:45px;height:34px;border:none;cursor:pointer;float:left;outline:none;}</span></p>
+<p class="p1"><span class="s1">.main_left .search .text{display:block;width:148px;height:34px;border:none;font-size:14px;color:#333;float:left;margin-left:6px;outline:none;}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.left_nav{width:160px; height:auto; margin-top:30px;}</span></p>
+<p class="p1"><span class="s1">.left_nav li{padding-left:30px;line-height:30px;}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.left_nav li a{font-size:16px; color:#666; }</span></p>
+<p class="p1"><span class="s1">.left_nav li a:hover{color:#000;}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">.main_right{width:760px; height:auto; float:left;margin-left:40px;}<span class="Apple-converted-space"> </span></span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">/*foot*/</span></p>
+<p class="p1"><span class="s1">.foot{width:1100px; padding-top:20px;padding-bottom:20px; margin:auto;clear:both;}</span></p>
+<p class="p1"><span class="s1">.foot p{font-size:16px;color:#fff; line-height:24px; text-align:center;}</span></p>
+</body>
+</html>
